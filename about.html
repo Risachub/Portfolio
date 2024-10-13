@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>About</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="shortcut icon" href="images/faviconme.png" type="image/x-icon">
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+</head>
+<body>
+  
+  <header>
+  <nav>
+    <img src="images/rakins.png" alt="" width="50px" height="60px">
+    <ul class="navlinks">
+      <li><a href="Home.html">Home</a></li>
+      <li><a class="active" href="about.html">About</a></li>
+      <li><a href="Skills.html">Skills</a></li>
+      <li><a href="project.html">Project</a></li>
+      <li><a href="#">Contact</a></li>
+      <li><a href="#">My Blog</a></li>
+    </ul>
+    <i class="fa-solid fa-bars nav-toggle"></i>
+  </nav>
+  </header>
+
+  <div class="flexcontainer-0">
+
+    <div>
+      <img class="img1" src="images/RR.png" alt="" width="400px" height="500px">
+    </div>
+
+    <div>
+      <h1>About Me</h1>
+
+      <p class="par">As a skilled frontend web developer, Ruth brings a passion for creating seamless and engaging user experiences to the digital world. With a strong foundation in HTML, CSS, Ruth crafts responsive and intuitive interfaces that captivate audiences.</p><br>
+      <p><b>Name:</b> Ruth Akinbami</p>
+      <p><b>Address:</b> Abeokuta, Ogun State, Nigeria</p>
+      <p><b>Postal Code:</b> 11001</p>
+      <p><b>Email:</b> ruthyisaac059@gmail.com</p>
+      <p><b>Phone:</b> +234 9037701800</p><br>
+
+     
+      <!-- DOWNLOAD CV BUTTON -->
+      <a class="a-button" href="https://drive.google.com/drive/folders/1A7eLb0MP8fTqfgxYKQyZ8tembQqw5tXu" download="https://drive.google.com/drive/folders/1A7eLb0MP8fTqfgxYKQyZ8tembQqw5tXu"><button>Download CV</button></a>
+
+      <div class="social-l">follow me
+      <a href="https://www.linkedin.com/in/ruth-akinbami-212-graphic-/"><i class="fa-brands fa-linkedin" ></i></a> 
+      <a href="https://x.com/isaac_ruthy?t=mItJfeinFK9hbjMGYMDH6A&s=09"><i class="fa-brands fa-x-twitter"></i></a>
+      <a href="https://github.com/Risachub?tab=repositories"><i class="fa-brands fa-github"></i></a>
+    </div>
+
+    </div>
+  </div>
+
+  <footer>
+    <div>
+      <img class="img-logo" src="images/rakins.png" alt="">
+      <i class="fa-solid fa-phone-volume"></i>      <span>Phone +234 9037701800</span> <br><br>
+    
+    <i class="fa-solid fa-envelope"></i>      <span>ruthyisaac059@gmail.com</span>
+    </div>
+  
+    <div>
+      <p><a href="Skills.html">My Skills</a></p>
+      <p><a href="project.html">Project</a></p>
+      <p> My blog</p>
+    </div>
+  
+    <div>
+      <p><a href="about.html">About me</a></p>
+      <p>Contact</p>
+    </div>
+  
+    <div>
+      <a href="https://www.linkedin.com/in/ruth-akinbami-212-graphic-/"><i class="fa-brands fa-linkedin"></i></a>
+      <a href="https://x.com/isaac_ruthy?t=mItJfeinFK9hbjMGYMDH6A&s=09"><i class="fa-brands fa-x-twitter"></i></a>
+      <a href="https://github.com/Risachub?tab=repositories"><i class="fa-brands fa-github"></i></a>
+      
+    </div>
+  </footer>
+
+  <script>
+    let toggle = document.querySelector(".nav-toggle")
+    let navlinks = document.querySelector(".navlinks")
+  
+    toggle.addEventListener("click", function(){
+      navlinks.classList.toggle("show")
+    })
+  </script>
+  
+</body>
+</html>
