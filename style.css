@@ -65,10 +65,12 @@ nav{
   justify-content: flex-start;
   align-items: center;
   padding: 50px 50px;
+  background-color: rgb(255, 210, 218);
 }
 .flexcontainer-0 > div{
   width: 100%;
   margin: 5px 40px;
+  
 }
 .flexcontainer-2{
   display: flex;
@@ -87,7 +89,7 @@ nav{
   justify-content: flex-start;
   align-items: center;
   padding: 50px 150px;
-  background-color: rgb(253, 223, 228);
+  background-color: rgb(250, 178, 190);
   
 }
 .flexcontainer-3 > div{
@@ -151,7 +153,7 @@ p, span{
 }
 
 .par{
-  color: rgb(101, 100, 100);
+  color: rgb(40, 51, 90);
 }
 
 
@@ -161,6 +163,7 @@ p, span{
 .img1{
   box-sizing: border-box;
   border-radius: 100px;
+  border: ridge 7px rgb(255, 90, 118);
   width: 500px;
   height: 580px;
 }
